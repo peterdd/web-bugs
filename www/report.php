@@ -35,9 +35,7 @@ if (!$logged_in) {
     $captcha = $container->get(Captcha::class);
 }
 
-$packageAffectedScript = <<<SCRIPT
-    <script src="$site_method://$site_url$basedir/js/package-affected.js"></script>
-SCRIPT;
+$packageAffectedScript = '<script src="'.$site_method.'://'.$site_url.$basedir.'js/package-affected.js"></script>';
 
 // Handle input
 if (isset($_POST['in'])) {
