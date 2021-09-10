@@ -1525,7 +1525,7 @@ function response_header($title, $extraHeaders = '')
 <table id="top" class="head" cellspacing="0" cellpadding="0">
     <tr>
         <td class="head-logo">
-            <a href="/"><img src="images/logo.png" alt="Bugs" vspace="2" hspace="2"></a>
+            <a href=""><img src="images/logo.png" alt="Bugs" vspace="2" hspace="2"></a>
         </td>
 
         <td class="head-menu">
@@ -1540,7 +1540,7 @@ function response_header($title, $extraHeaders = '')
 <?php if ($is_logged) { ?>
             <a href="search.php?cmd=display&amp;assign=<?php echo $username;?>">my bugs</a>&nbsp;|&nbsp;
 <?php if ($logged_in === 'developer') { ?>
-            <a href="/admin/">admin</a>&nbsp;|&nbsp;
+            <a href="admin/">admin</a>&nbsp;|&nbsp;
 <?php } ?>
             <a href="logout.php">logout</a>
 <?php } else { ?>
