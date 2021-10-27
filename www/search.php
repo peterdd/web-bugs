@@ -201,9 +201,6 @@ if (isset($_GET['cmd']) && $_GET['cmd'] == 'display')
 
             echo "</table>\n\n";
         }
-
-        response_footer();
-        exit;
     }
 }
 
